@@ -10,7 +10,11 @@ import Hr from "../styled/Hr";
 import { Lorem } from "../data/Lorem";
 import { CardButton } from "../components/CardButton";
 
-const theme = {};
+const theme = {
+  font: "Calibri",
+  color1: "papayawhip",
+  color2: "palevioletred"
+};
 
 class Card extends React.Component {
   constructor(props) {

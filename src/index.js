@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import Card from "./containers/Card";
+import { Router } from "./router/Router";
 
-const App = () => <Card />;
+const App = () => <Router />;
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
