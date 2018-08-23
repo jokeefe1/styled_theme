@@ -7,7 +7,7 @@ import P from "../styled/P";
 
 export const PageNotFound = props => (
   <Wrapper>
-    <H3>Whoops... the page you are looking for does not exist.</H3>
+    <H3 primary>Whoops... the page you are looking for does not exist.</H3>
     <P>
       Click <Link to="/">here</Link> to return to the home page.
     </P>
