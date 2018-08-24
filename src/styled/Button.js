@@ -3,6 +3,7 @@ import styled from "styled-components";
 export default styled.button`
   margin: 8px;
   padding: 8px;
+  cursor: pointer;
   background-color: ${props =>
     props.primary ? props.theme.color1 : props.theme.color2};
   color: ${props => (props.primary ? props.theme.color2 : props.theme.color1)};

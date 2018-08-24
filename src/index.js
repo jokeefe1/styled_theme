@@ -7,7 +7,9 @@ import { Router } from "./router/Router";
 const theme = {
   font: "Calibri",
   color1: "papayawhip",
-  color2: "palevioletred"
+  color2: "palevioletred",
+  accent1: "#45464e",
+  accent2: "#1a1a1d"
 };
 
 const App = () => (

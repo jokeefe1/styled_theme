@@ -6,6 +6,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Card from "../containers/Card";
 import { PageNotFound } from "../components/PageNotFound";
+import Footer from "../components/Footer";
 
 export const Router = () => (
   <BrowserRouter>
@@ -15,6 +16,7 @@ export const Router = () => (
         <Route exact path="/" component={Card} />
         <Route component={PageNotFound} />
       </Switch>
+      <Footer />
     </EmptyDiv>
   </BrowserRouter>
 );
